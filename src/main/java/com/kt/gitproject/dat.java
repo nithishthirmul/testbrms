@@ -6,12 +6,23 @@ package com.kt.gitproject;
 
 public class dat implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public dat() {
-    }
+	private java.lang.String anme;
 
+	public dat() {
+	}
 
+	public java.lang.String getAnme() {
+		return this.anme;
+	}
 
+	public void setAnme(java.lang.String anme) {
+		this.anme = anme;
+	}
+
+	public dat(java.lang.String anme) {
+		this.anme = anme;
+	}
 
 }
